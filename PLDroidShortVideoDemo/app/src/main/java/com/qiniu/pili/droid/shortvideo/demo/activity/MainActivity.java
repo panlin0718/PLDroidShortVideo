@@ -16,6 +16,7 @@ import com.qiniu.pili.droid.shortvideo.demo.R;
 import com.qiniu.pili.droid.shortvideo.demo.utils.PermissionChecker;
 import com.qiniu.pili.droid.shortvideo.demo.utils.RecordSettings;
 import com.qiniu.pili.droid.shortvideo.demo.utils.ToastUtils;
+import com.tencent.wstt.gt.controller.GTRController;
 
 import java.text.SimpleDateFormat;
 import java.util.Locale;
@@ -33,6 +34,7 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+
         setContentView(R.layout.activity_main);
 
         TextView versionInfoTextView = (TextView) findViewById(R.id.VersionInfoTextView);
